@@ -1,0 +1,23 @@
+# Dependências
+/node_modules
+
+# Arquivos de build
+/build
+
+# Arquivos de log
+/logs
+
+# Arquivos de configuração local
+/.env
+
+# Arquivos de cache
+/.cache
+
+# Arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de backup
+*.bak
+*.swp
+*.swo
