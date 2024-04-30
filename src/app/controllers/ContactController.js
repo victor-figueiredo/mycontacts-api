@@ -9,7 +9,6 @@ class ContactController {
   }
 
   async show(request, response) {
-    console.log("request.appID: ", request.appId);
     const { id } = request.params;
 
     const contact = await ContactRepository.findById(id);
